@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Number Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Guess The Number</h1>
+        <div class="game-frame">
+            <h2>Enter the range :</h2>
+            <div class="range-input">
+                <form action="#range">
+                    <div class="box">
+                        <label for="min-inp">Minimum :</label>
+                        <input type="number" name="Minimum" id="min" required>
+                    </div>
+                   <div class="box">
+                    <label for="max-inp">Maximum :</label>
+                    <input type="number" name="Maximum" id="max" required>
+                   </div>
+                    <button id="gen-btn">Genereate</button>
+                </form>
+                <p id="output"></p>
+                <div class="gues">
+                    <label for="gues-num">Gues the Number :</label>
+                    <input type="number" id="gues-num">
+                    <button type="submit" id="check-btn">Check</button>
+                </div>
+                <p id="output2"></p>
+            </div>
+            <img src="win.svg" alt="trophy img" id="win">
+            <img src="los.svg" alt="trophy img" id="los">
+            <div class="clear">
+                <p id="output3"></p>
+                <button id="clearBtn">Clear All</button>
+            </div>
+        </div>
+        <div class="hed"><h1>Random Number Game</h1>
+            <h2 id="last_h2">Project4</h2></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

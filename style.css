@@ -1,0 +1,106 @@
+body {
+    background-color: #FFFBCA;
+    color: #4635B1;
+}
+h1{
+    text-align: center;
+    font-family: "Stick", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+h2{
+    margin: 20px;
+    font-family: "Stick", serif;
+    font-weight: 600;
+}
+label{
+    font-family: "Stick", serif;
+    font-weight: 400;
+}
+input{
+    background-color: transparent;
+    outline: none;
+    font-family: "Stick", serif;
+    font-weight: 500;
+    caret-shape: underscore;
+    color: #4635B1;
+    border: 2px dotted #B771E5;
+    border-radius: 10px;
+    
+}
+p{
+    margin: 20px;
+}
+.countainer{
+    
+}
+.range-input{
+    
+}
+#win{
+    display: none;
+    margin: auto;
+}
+#los{
+    display: none;
+    margin: auto;
+}
+button{
+    height: 28px;
+    width: 80px;
+    margin: 18px;
+    font-family: "Stick", serif;
+    font-weight: 600;
+    background-color: #AEEA94;
+    color: #4635B1;
+    border: 3px solid #B771E5;
+    border-radius: 8px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+button:hover{
+    cursor: pointer;
+}
+#gen-btn{
+    height: 32px;
+    width: 100px;
+    margin: 18px;
+    font-family: "Stick", serif;
+    font-weight: 600;
+    background-color: #AEEA94;
+    border: 3px solid #B771E5;
+    border-radius: 8px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+#clearBtn{
+    margin: 20px;
+}
+#check-btn{
+    margin-left: -2px;
+}
+.box{
+    margin: 20px;
+}
+.game-frame{
+    margin: auto;
+    height: 81.5vh;
+    width: 65vw;
+    border: 5px solid #B771E5;
+    border-radius: 16px;
+    
+}
+.gues {
+    display: none;
+    margin: 20px;
+}
+#last_h2{
+    text-align: center;
+}
+@media (max-width : 390px) {
+    .game-frame {
+        width: 92vw;
+    }
+}
