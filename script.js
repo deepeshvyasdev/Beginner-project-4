@@ -14,7 +14,12 @@ let los = document.querySelector("#los");
 form.addEventListener('submit', (event)=>{
     console.log('Event is listening');
     event.preventDefault();
-
+    //clear gues num and previous result
+    output2.innerText = '';
+    los.style.display = "none";
+    win.style.display = "none";
+    document.getElementById('gues-num').value = "";
+    
     //getting value from input
     const min = parseInt(document.getElementById('min').value);
     const max = parseInt(document.getElementById('max').value);
